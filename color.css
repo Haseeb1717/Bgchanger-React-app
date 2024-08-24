@@ -1,0 +1,43 @@
+.colorbg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: bisque;
+  padding: 30px;
+  gap: 1rem;
+  border-radius: 100px;
+}
+
+.green-color, .maroon-color, .red-color, .black-color, .golden-rod {
+  padding: 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.green-color {
+  background-color: green;
+}
+
+.maroon-color {
+  background-color: maroon;
+}
+
+.red-color {
+  background-color: red;
+}
+
+.black-color {
+  background-color: black;
+}
+
+.golden-rod {
+  background-color: goldenrod;
+}
